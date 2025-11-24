@@ -1,14 +1,12 @@
 "use client";
 
 import { User, Mail } from "lucide-react";
-import { LuMessageSquareShare } from "react-icons/lu";
-import { FaRegCommentDots } from "react-icons/fa";
+import { FaRegCommentDots, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import Link from "next/link";
 import { useState, ChangeEvent, FormEvent, ComponentType } from "react";
 import { FORM_ENDPOINT } from "../constants/data";
 
-// =============================================
-// TYPE DEFINITIONS
-// =============================================
 interface FormData {
   name: string;
   email: string;
@@ -25,12 +23,8 @@ interface FormField {
 }
 
 type FormStatus = "idle" | "submitting" | "success" | "error";
-
 type SetStateFunction<T> = (value: T | ((prev: T) => T)) => void;
 
-// =============================================
-// FORM CONFIGURATION
-// =============================================
 const FORM_CONFIG = {
   endpoint: FORM_ENDPOINT,
   initialData: { name: "", email: "", message: "" } as FormData,
@@ -60,9 +54,7 @@ const FORM_CONFIG = {
   ] as FormField[],
 };
 
-// =============================================
-// HELPER FUNCTIONS
-// =============================================
+// API Submit
 const submitForm = async (
   formData: FormData,
   setStatus: SetStateFunction<FormStatus>,
@@ -84,9 +76,7 @@ const submitForm = async (
       setFormData(FORM_CONFIG.initialData);
     } else {
       const errorData = await response.json();
-      setErrorMessage(
-        errorData.error || "Something went wrong. Please try again."
-      );
+      setErrorMessage(errorData.error || "Something went wrong. Please try again.");
       setStatus("error");
     }
   } catch {
@@ -102,19 +92,17 @@ const renderField = (
 ) => {
   const Icon = field.icon;
   const commonClasses =
-    "w-full pl-10 pr-4 py-2 rounded-lg border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-border-hover";
+    "w-full bg-background/60 pl-11 pr-4 py-3 rounded-xl border border-border/50 backdrop-blur-md shadow-sm text-foreground placeholder:text-muted-foreground transition focus:ring-2 focus:ring-primary focus:outline-none";
 
   return (
-    <div key={field.name}>
-      <label htmlFor={field.name} className="block text-sm font-medium mb-2">
+    <div key={field.name} className="space-y-1">
+      <label htmlFor={field.name} className="block text-sm font-medium text-muted-foreground">
         {field.label}
       </label>
-      <div className="relative text-sm">
-        <div
-          className={`absolute ${field.type === "textarea" ? "top-3" : "inset-y-0"} left-3 flex items-center text-muted-foreground`}
-        >
-          <Icon className="w-5 h-5" />
-        </div>
+
+      <div className="relative">
+        <Icon className="w-5 h-5 absolute left-3 top-3 text-muted-foreground" />
+
         {field.type === "textarea" ? (
           <textarea
             id={field.name}
@@ -143,9 +131,6 @@ const renderField = (
   );
 };
 
-// =============================================
-// MAIN COMPONENT
-// =============================================
 const Contact = () => {
   const [formData, setFormData] = useState<FormData>(FORM_CONFIG.initialData);
   const [status, setStatus] = useState<FormStatus>("idle");
@@ -161,46 +146,66 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-5">
-      <h2 className="text-xl font-semibold mb-4">let&apos;s connect.</h2>
+    <section className="py-8 space-y-6">
+      <h2 className="text-2xl font-semibold tracking-tight">Let's Connect</h2>
+      <p className="text-muted-foreground text-sm">Choose your preferred way to contact me.</p>
 
-      <div className="space-y-4">
-        <p className="text-sm text-muted-foreground">
-          I&apos;d love to hear from you! Whether you have a question, want to
-          discuss a project, or just want to say hi, feel free to reach out
-          using the form below.
-        </p>
+      {/* CARDS */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        {/* Card 1 */}
+        <div className="p-5 rounded-2xl bg-card/70 backdrop-blur-md border border-border/40 shadow-md transition hover:shadow-lg hover:bg-card/80">
+          <h3 className="font-semibold text-sm mb-3">Profiles & Links</h3>
 
-        <form onSubmit={handleSubmit} className="space-y-4 p-2">
-          {FORM_CONFIG.fields.map((field) =>
-            renderField(field, formData, handleChange)
-          )}
+          <div className="space-y-3 text-sm">
+            <Link href="https://github.com/shasbinas" target="_blank" className="premium-link">
+              <FaGithub className="icon" /> GitHub
+            </Link>
 
-          <button
-            type="submit"
-            disabled={status === "submitting"}
-            className={`w-full px-3 py-2 rounded-lg text-sm btn font-medium flex items-center justify-center gap-2 ${status === "submitting" ? "opacity-70 cursor-not-allowed" : ""}`}
-          >
-            {status === "submitting" ? (
-              "Sending..."
-            ) : (
-              <>
-                <span>Send Message</span>{" "}
-                <LuMessageSquareShare className="w-4 h-4" />
-              </>
-            )}
-          </button>
+            <Link href="https://linkedin.com" target="_blank" className="premium-link">
+              <FaLinkedin className="icon" /> LinkedIn
+            </Link>
 
-          {status === "success" && (
-            <p className="text-green-600 text-sm text-center">
-              Got your message! I&apos;ll get back to you soon.
-            </p>
-          )}
-          {status === "error" && (
-            <p className="text-red-600 text-sm text-center">{errorMessage}</p>
-          )}
-        </form>
+            <Link href="https://leetcode.com/u/shasbinas/" target="_blank" className="premium-link">
+              <SiLeetcode className="icon" /> LeetCode
+            </Link>
+          </div>
+        </div>
+
+        {/* Card 2 */}
+        <div className="p-5 rounded-2xl bg-card/70 backdrop-blur-md border border-border/40 shadow-md transition hover:shadow-lg hover:bg-card/80">
+          <h3 className="font-semibold text-sm mb-3">Get in Touch</h3>
+
+          <div className="space-y-3 text-sm">
+            <Link href="https://wa.me/919746998909" target="_blank" className="premium-link">
+              <FaWhatsapp className="icon" /> WhatsApp
+            </Link>
+
+            <Link href="mailto:shasbinas1@gmail.com" className="premium-link">
+              <Mail className="icon" /> Send Email
+            </Link>
+          </div>
+        </div>
       </div>
+
+      {/* Styles */}
+      <style>{`
+        .premium-link {
+          display: flex;
+          gap: 8px;
+          align-items: center;
+          padding: 8px 10px;
+          border-radius: 10px;
+          transition: 0.25s ease;
+        }
+        .premium-link:hover {
+          background: rgba(255,255,255,0.08);
+          transform: translateX(3px);
+        }
+        .icon {
+          width: 18px;
+          height: 18px;
+        }
+      `}</style>
     </section>
   );
 };
