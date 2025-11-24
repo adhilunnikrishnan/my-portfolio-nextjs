@@ -7,7 +7,7 @@ export default function Education() {
     <section className="py-5">
       {/* Education */}
       <div className="space-y-4">
-        <h2 className="text-xl font-semibold mb-4">education.</h2>
+        <h2 className="text-xl font-semibold mb-4">Education.</h2>
         <div className="space-y-4">
           {EDUCATION.map((edu, index) => (
             <div key={index} className="space-y-1">
@@ -28,9 +28,9 @@ export default function Education() {
                   <MdOutlineArrowOutward className="inline-block w-4 h-4 ml-1" />
                 </Link>
               </p>
-              <p className="text-sm text-muted-foreground">
+              {/* <p className="text-sm text-muted-foreground">
                 Score: {edu.score}
-              </p>
+              </p> */}
             </div>
           ))}
         </div>

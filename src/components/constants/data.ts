@@ -3,34 +3,33 @@
 
 export const ABOUT_ME = {
   name: "Shasbin AS",
-  title: "Software Developer",
-  location: "Your Location",
-  email: "your.email@example.com",
+  title: "Backend Developer",
+  location: "Kerala",
+  email: "shasbinas1@gmail.com",
   description: [
-    "Write a short introduction about yourself!",
-    "Mention your interests, what you love to build, or your coding journey.",
-    "You can add more lines or remove these as you like.",
+    "Hi, I’m Shasbin A.S, a backend developer with a strong focus on building reliable, scalable, and secure server-side applications. I enjoy solving complex problems and turning ideas into efficient APIs and systems.",
+    "I’m passionate about developing secure authentication flows, robust RESTful APIs, and intelligent data-driven applications. I enjoy crafting backend systems that are scalable, maintainable, and built with clean, modern architecture.",
   ],
-  profileImage: "/profile-image.webp", // Replace with your profile image
+  profileImage: "/profile-image.jpg", // Replace with your profile image
   profileGif: "/profile-gif.gif", // Replace with your personalised gif
 };
 
 export const USER_NAMES = {
-  githubUsername: "your-github-username",
-  leetcodeUsername: "your-leetcode-username", // remove or keep blank if you don't have a LeetCode profile
-  hashnodeUsername: "your-hashnode-username", // remove or keep blank if you don't have a Hashnode profile
+  githubUsername: "shasbinas",
+  leetcodeUsername: "shasbinas", // remove or keep blank if you don't have a LeetCode profile
+//   hashnodeUsername: "your-hashnode-username", // remove or keep blank if you don't have a Hashnode profile
 };
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com/your-github-username",
-  linkedin: "https://linkedin.com/in/your-linkedin",
-  twitter: "https://twitter.com/your-twitter",
-  leetcode: "https://leetcode.com/your-leetcode",
-  peerlist: "https://peerlist.io/your-peerlist", // remove or keep blank if you don't have a Peerlist profile
-  instagram: "https://instagram.com/your-instagram",
-  email: "mailto:your.email@example.com",
-  blog: "https://yourblog.com", // remove if you don't have a blog
-  resume: "https://your-resume-drive-link.com",
+  github: "https://github.com/shasbinas",
+  linkedin: "https://linkedin.com/in/shasbinasdev",
+  // twitter: "https://twitter.com/your-twitter",
+  leetcode: "https://leetcode.com/shasbinas",
+  // peerlist: "https://peerlist.io/your-peerlist", // remove or keep blank if you don't have a Peerlist profile
+  // instagram: "https://instagram.com/your-instagram",
+  email: "mailto:shasbinas1@gmail.com",
+  // blog: "https://yourblog.com", // remove if you don't have a blog
+  resume: "https://drive.google.com/file/d/1lf2eQpjK10k9CFMpI7HCLGmskxRb3hdT/view?usp=sharing",
 };
 
 // Contact form endpoint (update with your own Formspree endpoint)
@@ -38,39 +37,39 @@ export const FORM_ENDPOINT = "https://formspree.io/f/your-form-id";
 
 export const SKILLS = { // Keep only the skills you want to showcase and remove the rest
   frontend: [
-    "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Vue.js", "Angular", "Redux", "TailwindCSS", "Bootstrap", "Sass", "Less", "jQuery"
+    "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Bootstrap",
   ],
   backend: [
-    "Node.js", "Express.js", "NestJS", "Django", "Flask", "Spring Boot", "Ruby on Rails", "Laravel", "ASP.NET", "FastAPI"
+    "Node.js", "Express.js" 
   ],
   databases: [
-    "MongoDB", "MySQL", "PostgreSQL", "SQLite", "Redis", "Firebase", "Supabase"
+    "MongoDB", "MySQL", "PostgreSQL", "Redis"
   ],
   languages: [
-    "C", "C++", "C#", "Java", "Python", "JavaScript", "TypeScript", "Go", "Rust", "Ruby", "PHP", "Kotlin", "Swift", "Dart", "Scala"
+    "C", "C++", "Java", "Python", "Django", "JavaScript", "TypeScript"
   ],
   cloudDevOps: [
-    "AWS", "Azure", "GCP", "Docker", "Kubernetes", "Vercel", "Netlify", "Heroku", "GitHub Actions", "Jenkins"
+    "AWS", "Docker", "Vercel","GitHub Actions",
   ],
   tools: [
-    "VS Code", "Git", "GitHub", "GitLab", "Bitbucket", "Postman", "Figma", "Vite", "Webpack", "Babel", "Jest", "Linux", "Windows", "MacOS"
+    "VS Code", "Git", "GitHub", "GitLab", "Bitbucket", "Postman", "Figma",  "Jest", "Windows",
   ],
 };
 
 export const PROJECTS = [
   {
-    name: "Project 1",
-    description: "Describe your project 1 here. Example: A web app for tracking habits.",
-    tech: ["React", "TypeScript"],
-    link: "https://yourproject1-link.com",
-    github: "https://github.com/yourusername/project1",
+    name: "task-manager-api-ts",
+    description: " A production-ready Task Manager REST API built with TypeScript, Express, PostgreSQL, Prisma, and Redis — featuring secure auth, role-based access, task management, comments, user controls, and Cloudinary uploads.",
+    tech: ["Node.js", "TypeScript","JWT","Redis","PostgreSQL","Prisma ORM","argon2","Cloudinary","Jest + Supertest"],
+    link: "",
+    github: "https://github.com/shasbinas/task-manager-api-ts",
   },
   {
-    name: "Project 2",
-    description: "Describe your project 2 here. Example: An e-commerce site for books.",
-    tech: ["Next.js", "Tailwind CSS"],
-    link: "https://yourproject2-link.com",
-    github: "https://github.com/yourusername/project2",
+    name: "ChronoRoyale-Ecommerce-WebApp",
+    description: "ChronoRoyale is built to deliver a modern e-commerce experience specifically for luxury watches. Users can browse, wishlist, add to cart, and place orders. Admins can manage products, users, and orders with ease.",
+    tech: ["Node.js","JavaScript", "Bootstrap 5","Handlebars","Chart.js","Express.js","Multer","MongoDBAtlas","JWT",],
+    link: "https://chronoroyale-ecommerce-webapp.onrender.com",
+    github: "https://github.com/shasbinas/ChronoRoyale-Ecommerce-WebApp.git",
   },
   // Add more projects as needed
 ];
@@ -90,11 +89,11 @@ export const EXPERIENCE = [
 
 export const EDUCATION = [
   {
-    degree: "Your Degree (e.g., B.Tech. in Computer Science)",
-    institution: "Your University",
-    institutionLink: "https://youruniversity.com/",
-    period: "2020 - 2024",
-    score: "XX % or GPA",
+    degree: "Bachelor of Computer Applications (BCA) – Online Degree",
+    institution: " Yenepoya University",
+    institutionLink: "https://www.yenepoya.edu.in/",
+    period: "2025 - 2028 Expected",
+    // score: "XX % or GPA", education.tsx uncomment future for score(Score:)
   },
   // Add more education as needed
 ];

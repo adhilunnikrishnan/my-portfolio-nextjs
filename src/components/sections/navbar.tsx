@@ -9,7 +9,7 @@ const STAGGER = 30; // Delay between each letter in milliseconds
 const navItems = [
   { name: "skills", href: "#skills" },
   { name: "projects", href: "#projects" },
-  { name: "blog", href: "#blog" },
+  // { name: "blog", href: "#blog" },
   { name: "contact", href: "#contact" },
 ];
 
