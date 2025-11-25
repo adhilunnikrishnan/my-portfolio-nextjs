@@ -31,8 +31,8 @@ export const SOCIAL_LINKS = {
   // blog: "https://yourblog.com", // remove if you don't have a blog
   resume:
     "https://drive.google.com/file/d/1lf2eQpjK10k9CFMpI7HCLGmskxRb3hdT/view?usp=sharing",
-  phone: "+91 00000 00000",
-  whatsapp: "https://wa.me/910000000000",
+  phone: "+91 9746998909",
+  whatsapp: "https://wa.me/ 9746998909",
 };
 
 // Contact form endpoint (update with your own Formspree endpoint)
@@ -141,8 +141,29 @@ export const EDUCATION = [
     degree: "Bachelor of Computer Applications (BCA) – Online Degree",
     institution: " Yenepoya University",
     institutionLink: "https://www.yenepoya.edu.in/",
-    period: "2025 - 2028 Expected",
-    // score: "XX % or GPA", education.tsx uncomment future for score(Score:)
+    period: "Oct 2025 - 2028 Jan Expected",
+    
+  },
+   {
+    degree: "Senior Secondary (Plus Two) ",
+    institution: "Lbsm Higher Secondary School ",
+    // institutionLink: "https://www.yenepoya.edu.in/",
+    period: "Jul 2021 - Mar 2023",
+  
+  },
+   {
+    degree: "Secondary (SSLC)",
+    institution: "Lbsm Higher Secondary School ",
+    // institutionLink: "https://www.yenepoya.edu.in/",
+    period: "Jul 2020 - Mar 2021",
+  
+  },
+    {
+    degree: "Full Stack Developer",
+    institution: "G-Tec Computer Education ",
+    // institutionLink: "https://www.yenepoya.edu.in/",
+    period: "Jul 2025  - Feb 2026 Expected",
+  
   },
   // Add more education as needed
 ];

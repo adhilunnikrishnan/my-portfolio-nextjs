@@ -30,6 +30,7 @@ export default function Education() {
               {edu.institution}
               <MdOutlineArrowOutward className="w-4 h-4" />
             </Link>
+             
           </div>
         ))}
       </div>
