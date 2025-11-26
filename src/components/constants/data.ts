@@ -1,10 +1,10 @@
-// This file contains constants and data used across the portfolio template. 
+// This file contains constants and data used across the portfolio template.
 // Update the values to personalize your portfolio.
 
 export const ABOUT_ME = {
   name: "Shasbin AS",
   title: "Backend Developer",
-  location: "Kerala",
+  location: "Irinjalakuda, Thrissur, Kerala, India",
   email: "shasbinas1@gmail.com",
   description: [
     "Hi, I’m Shasbin A.S, a backend developer with a strong focus on building reliable, scalable, and secure server-side applications. I enjoy solving complex problems and turning ideas into efficient APIs and systems.",
@@ -17,7 +17,7 @@ export const ABOUT_ME = {
 export const USER_NAMES = {
   githubUsername: "shasbinas",
   leetcodeUsername: "shasbinas", // remove or keep blank if you don't have a LeetCode profile
-//   hashnodeUsername: "your-hashnode-username", // remove or keep blank if you don't have a Hashnode profile
+  //   hashnodeUsername: "your-hashnode-username", // remove or keep blank if you don't have a Hashnode profile
 };
 
 export const SOCIAL_LINKS = {
@@ -26,48 +26,87 @@ export const SOCIAL_LINKS = {
   // twitter: "https://twitter.com/your-twitter",
   leetcode: "https://leetcode.com/shasbinas",
   // peerlist: "https://peerlist.io/your-peerlist", // remove or keep blank if you don't have a Peerlist profile
-  // instagram: "https://instagram.com/your-instagram",
+  instagram: "",
   email: "mailto:shasbinas1@gmail.com",
   // blog: "https://yourblog.com", // remove if you don't have a blog
-  resume: "https://drive.google.com/file/d/1lf2eQpjK10k9CFMpI7HCLGmskxRb3hdT/view?usp=sharing",
+  resume:
+    "https://drive.google.com/file/d/1lf2eQpjK10k9CFMpI7HCLGmskxRb3hdT/view?usp=sharing",
+  phone: "+91 9746998909",
+  whatsapp: "https://wa.me/ 9746998909",
 };
 
 // Contact form endpoint (update with your own Formspree endpoint)
 export const FORM_ENDPOINT = "https://formspree.io/f/your-form-id";
 
-export const SKILLS = { // Keep only the skills you want to showcase and remove the rest
+export const SKILLS = {
+  // Keep only the skills you want to showcase and remove the rest
   frontend: [
-    "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Bootstrap",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Bootstrap",
   ],
-  backend: [
-    "Node.js", "Express.js" 
-  ],
-  databases: [
-    "MongoDB", "MySQL", "PostgreSQL", "Redis"
-  ],
+  backend: ["Node.js", "Express.js"],
+  databases: ["MongoDB", "MySQL", "PostgreSQL", "Redis"],
   languages: [
-    "C", "C++", "Java", "Python", "Django", "JavaScript", "TypeScript"
+    "C",
+    "C++",
+    "Java",
+    "Python",
+    "Django",
+    "JavaScript",
+    "TypeScript",
   ],
-  cloudDevOps: [
-    "AWS", "Docker", "Vercel","GitHub Actions",
-  ],
+  cloudDevOps: ["AWS", "Docker", "Vercel", "GitHub Actions"],
   tools: [
-    "VS Code", "Git", "GitHub", "GitLab", "Bitbucket", "Postman", "Figma",  "Jest", "Windows",
+    "VS Code",
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Postman",
+    "Figma",
+    "Jest",
+    "Windows",
   ],
 };
 
 export const PROJECTS = [
   {
     name: "task-manager-api-ts",
-    description: " A production-ready Task Manager REST API built with TypeScript, Express, PostgreSQL, Prisma, and Redis — featuring secure auth, role-based access, task management, comments, user controls, and Cloudinary uploads.",
-    tech: ["Node.js", "TypeScript","JWT","Redis","PostgreSQL","Prisma ORM","argon2","Cloudinary","Jest + Supertest"],
+    description:
+      " A production-ready Task Manager REST API built with TypeScript, Express, PostgreSQL, Prisma, and Redis — featuring secure auth, role-based access, task management, comments, user controls, and Cloudinary uploads.",
+    tech: [
+      "Node.js",
+      "TypeScript",
+      "JWT",
+      "Redis",
+      "PostgreSQL",
+      "Prisma ORM",
+      "argon2",
+      "Cloudinary",
+      "Jest + Supertest",
+    ],
     link: "",
     github: "https://github.com/shasbinas/task-manager-api-ts",
   },
   {
     name: "ChronoRoyale-Ecommerce-WebApp",
-    description: "ChronoRoyale is built to deliver a modern e-commerce experience specifically for luxury watches. Users can browse, wishlist, add to cart, and place orders. Admins can manage products, users, and orders with ease.",
-    tech: ["Node.js","JavaScript", "Bootstrap 5","Handlebars","Chart.js","Express.js","Multer","MongoDBAtlas","JWT",],
+    description:
+      "ChronoRoyale is built to deliver a modern e-commerce experience specifically for luxury watches. Users can browse, wishlist, add to cart, and place orders. Admins can manage products, users, and orders with ease.",
+    tech: [
+      "Node.js",
+      "JavaScript",
+      "Bootstrap 5",
+      "Handlebars",
+      "Chart.js",
+      "Express.js",
+      "Multer",
+      "MongoDBAtlas",
+      "JWT",
+    ],
     link: "https://chronoroyale-ecommerce-webapp.onrender.com",
     github: "https://github.com/shasbinas/ChronoRoyale-Ecommerce-WebApp.git",
   },
@@ -75,16 +114,29 @@ export const PROJECTS = [
 ];
 
 export const EXPERIENCE = [
-  {
-    company: "Company Name",
-    companyLink: "https://companyname.com/",
-    role: "Software Developer",
-    period: "Jan 2025 - Present",
-    location: "Remote/Location",
-    description: "Describe your responsibilities and achievements.",
-    skills: ["React", "Node.js", "XXXX"],
-  },
-  // Add more experience as needed
+ {
+  company: "G-Tec Computer Education",
+  companyLink: "",
+  role: "Full Stack Development Intern",
+  period: "Jun 2025 - Feb 2026 (Expected)",
+  location: "Onsite",
+  description:
+    "Working on full-stack development with a focus on backend engineering. Building secure RESTful APIs, implementing caching and session management with Redis, designing scalable architectures, and integrating relational and NoSQL databases. Gaining hands-on experience with containerization, API performance optimization, and modern JavaScript development workflows.",
+  skills: [
+    "Node.js",
+    "Express.js",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "Docker",
+    "REST APIs",
+    "Backend Architecture"
+  ],
+}
+
 ];
 
 export const EDUCATION = [
@@ -92,8 +144,24 @@ export const EDUCATION = [
     degree: "Bachelor of Computer Applications (BCA) – Online Degree",
     institution: " Yenepoya University",
     institutionLink: "https://www.yenepoya.edu.in/",
-    period: "2025 - 2028 Expected",
-    // score: "XX % or GPA", education.tsx uncomment future for score(Score:)
+    period: "Oct 2025 - Jan 2028  Expected",
+    
   },
+   {
+    degree: "Senior Secondary (Plus Two) ",
+    institution: "Lbsm Higher Secondary School ",
+    // institutionLink: "https://www.yenepoya.edu.in/",
+    period: "Jul 2021 - Mar 2023",
+  
+  },
+   {
+    degree: "Secondary (SSLC)",
+    institution: "Lbsm Higher Secondary School ",
+    // institutionLink: "https://www.yenepoya.edu.in/",
+    period: "Jul 2020 - Mar 2021",
+  
+  },
+   
   // Add more education as needed
 ];
+
