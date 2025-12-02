@@ -14,10 +14,10 @@ interface ProfileImageProps {
   setIsHovering: (hovering: boolean) => void;
 }
 
-interface VerifiedBadgeProps {
-  showTooltip: boolean;
-  setShowTooltip: (show: boolean) => void;
-}
+// interface VerifiedBadgeProps {
+//   showTooltip: boolean;
+//   setShowTooltip: (show: boolean) => void;
+// }
 
 interface LocationTimeProps {
   currentTime: string;
