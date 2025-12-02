@@ -122,8 +122,6 @@ const Header = () => {
                 {ABOUT_ME.name}
               </h1>
               <VerifiedBadge
-                showTooltip={showTooltip}
-                setShowTooltip={setShowTooltip}
               />
             </div>
             <p className="text-sm uppercase tracking-[0.35em] text-muted-foreground">
