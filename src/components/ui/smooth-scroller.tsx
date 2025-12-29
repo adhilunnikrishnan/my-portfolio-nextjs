@@ -11,7 +11,7 @@ export default function SmoothScroller() {
       orientation: "vertical",
       gestureOrientation: "vertical",
       smoothWheel: true,
-      wheelMultiplier: 1.2, // Increased sensitivity as requested
+      wheelMultiplier: 2, // Significantly increased sensitivity
       touchMultiplier: 2,
     });
 
