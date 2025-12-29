@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section className="py-6 space-y-4">
       <div className="flex flex-col gap-2">
-        <h2 className="section-title">featured builds.</h2>
+        <h2 className="section-title">Projects.</h2>
         <p className="text-sm text-muted-foreground max-w-2xl">
           Shipping polished experiences from rapid prototypes to
           production-ready systems. Each build blends performance, resilience,
@@ -22,7 +22,7 @@ export default function Projects() {
                   {project.name}
                 </h3>
                 <p className="text-xs uppercase tracking-[0.4em] text-muted-foreground mt-1">
-                  featured case study
+                 
                 </p>
               </div>
               <div className="flex gap-2">
