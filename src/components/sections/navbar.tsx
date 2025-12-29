@@ -11,13 +11,13 @@ const STAGGER = 30; // Delay between each letter in milliseconds
 
 // Navigation items with their respective href values
 const navItems = [
-  { name: "skills", href: "#skills" },
-  { name: "github", href: "#github" },
-  { name: "leetcode", href: "#leetcode" },
-  { name: "projects", href: "#projects" },
-  { name: "achievements", href: "#achievements" },
-  { name: "education", href: "#education" },
-  { name: "contact", href: "#contact" },
+  { name: "Skills", href: "#skills" },
+  { name: "Github", href: "#github" },
+  { name: "Leetcode", href: "#leetcode" },
+  { name: "Projects", href: "#projects" },
+  { name: "Achievements", href: "#achievements" },
+  { name: "Education", href: "#education" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
