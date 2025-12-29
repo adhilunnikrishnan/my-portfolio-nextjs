@@ -6,7 +6,7 @@ export default function Experience() {
   return (
     <section className="py-6 space-y-4">
       <div className="flex flex-col gap-2">
-        <h2 className="section-title">work experience.</h2>
+        <h2 className="section-title">Work Experience.</h2>
         <p className="text-sm text-muted-foreground max-w-2xl">
           Collaborating with teams to ship resilient platforms, streamline
           developer workflows, and ship products with a focus on security,

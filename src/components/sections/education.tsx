@@ -6,7 +6,7 @@ export default function Education() {
   return (
     <section className="py-6 space-y-4">
       <div className="flex flex-col gap-2">
-        <h2 className="section-title">education.</h2>
+        <h2 className="section-title">Education.</h2>
         <p className="text-sm text-muted-foreground max-w-2xl">
           Continuous learning through formal programs and self-directed
           research.

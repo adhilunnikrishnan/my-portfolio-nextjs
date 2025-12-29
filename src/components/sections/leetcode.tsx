@@ -105,7 +105,7 @@ export default function LeetCodeCard() {
 
   return (
     <section className="py-6 space-y-4" id="leetcode">
-      <h2 className="section-title w-full">leetcode.</h2>
+      <h2 className="section-title w-full">Leetcode.</h2>
 
       <div className="glass-panel hover-lift space-y-5">
         <div className="flex items-center gap-2 text-sm font-mono text-muted-foreground">

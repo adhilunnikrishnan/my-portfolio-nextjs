@@ -92,7 +92,7 @@ export default function Achievements() {
   return (
     <section className="py-6 space-y-4" id="achievements">
       <div className="flex flex-col gap-2">
-        <h2 className="section-title">achievements.</h2>
+        <h2 className="section-title">Achievements.</h2>
         <p className="text-sm text-muted-foreground max-w-2xl">
           Showcase GitHub trophies, LeetCode badges, hackathon recognitions, or
           certifications. Drop your media into any card to keep this reel up to

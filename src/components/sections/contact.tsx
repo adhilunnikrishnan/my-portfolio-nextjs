@@ -102,7 +102,7 @@ const Contact = () => {
 
   return (
     <section className="py-6 space-y-4">
-      <h2 className="section-title w-full">let&apos;s connect.</h2>
+      <h2 className="section-title w-full">Let&apos;s Connect.</h2>
 
       <div className="grid gap-6 lg:grid-cols-2">
         <div className="glass-panel p-6 space-y-6">
