@@ -17,8 +17,14 @@ const PLACEHOLDER_BADGES = [
     title: "100 Days Badge",
     platform: "LeetCode",
     description: "Solved problems for 100 consecutive days",
+    imagePath: "https://assets.leetcode.com/static_assets/others/25100.gif",
+  },
+  {
+    title: "LeetCode 75",
+    platform: "LeetCode",
+    description: "Completed the LeetCode 75 challenge",
     imagePath:
-      "https://assets.leetcode.com/static_assets/marketing/2024-100.gif",
+      "https://assets.leetcode.com/static_assets/others/LeetCode_75.gif",
   },
   {
     title: "Pull Shark",
