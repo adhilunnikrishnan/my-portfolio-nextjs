@@ -17,7 +17,7 @@
 
 [Report Bug](https://github.com/shasbinas/my-portfolio-nextjs/issues) • [Request Feature](https://github.com/shasbinas/my-portfolio-nextjs/issues)
 
-</div>
+
 
 ---
 
@@ -54,6 +54,19 @@ The portfolio includes sections for:
 - **LeetCode Stats** - Competitive programming achievements
 - **Achievements** - Certifications and accomplishments
 - **Contact** - Multiple ways to get in touch
+
+<div>
+  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/-Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB + Mongoose" />
+  <img src="https://img.shields.io/badge/-JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT (Authentication)" />
+  <img src="https://img.shields.io/badge/-bcryptjs-003366?style=for-the-badge&logo=security&logoColor=white" alt="bcryptjs" />
+  <img src="https://img.shields.io/badge/-dotenv-009639?style=for-the-badge&logo=dotenv&logoColor=white" alt="dotenv" />
+  <img src="https://img.shields.io/badge/-Joi-FFB703?style=for-the-badge&logo=javascript&logoColor=black" alt="Joi Validation" />
+  <a href="https://node-mongoose-jwt-apis.onrender.com/api-docs" target="_blank">
+    <img src="https://img.shields.io/badge/-Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger API Docs" />
+  </a>
+</div>
 
 ---
 
