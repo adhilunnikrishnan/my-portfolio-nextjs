@@ -2,7 +2,7 @@
 // Update the values to personalize your portfolio.
 
 export const ABOUT_ME = {
-  name: "Shasbin AS",
+  name: "Adhil Unnikrishnan P",
   title: "Backend Developer",
   location: "Irinjalakuda, Thrissur, Kerala, India",
   email: "shasbin.official@gmail.com",
