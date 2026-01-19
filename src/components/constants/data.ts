@@ -5,34 +5,34 @@ export const ABOUT_ME = {
   name: "Adhil Unnikrishnan P",
   title: "Backend Developer",
   location: "Irinjalakuda, Thrissur, Kerala, India",
-  email: "shasbin.official@gmail.com",
+  email: "adhilunnikrishnanofficial@gmail.com",
   description: [
-    "Hi, I’m Shasbin A.S, a backend developer with a strong focus on building reliable, scalable, and secure server-side applications. I enjoy solving complex problems and turning ideas into efficient APIs and systems.",
+    "Hi, I’m Adhil Unnikrishnan P, a backend developer with a strong focus on building reliable, scalable, and secure server-side applications. I enjoy solving complex problems and turning ideas into efficient APIs and systems.",
     "I’m passionate about developing secure authentication flows, robust RESTful APIs, and intelligent data-driven applications. I enjoy crafting backend systems that are scalable, maintainable, and built with clean, modern architecture.",
   ],
-  profileImage: "/profile-image.jpg", // Replace with your profile image
+  profileImage: "/profile-image.png", // Replace with your profile image
   profileGif: "/profile-gif.gif", // Replace with your personalised gif
 };
 
 export const USER_NAMES = {
-  githubUsername: "shasbinas",
-  leetcodeUsername: "shasbinas", // remove or keep blank if you don't have a LeetCode profile
+  githubUsername: "adhilunnikrishnan",
+  leetcodeUsername: "adhilunnikrishnan", // remove or keep blank if you don't have a LeetCode profile
   //   hashnodeUsername: "your-hashnode-username", // remove or keep blank if you don't have a Hashnode profile
 };
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com/shasbinas",
-  linkedin: "https://linkedin.com/in/shasbinasdev",
+  github: "https://github.com/adhilunnikrishnan",
+  linkedin: "https://www.linkedin.com/in/adhilunnikrishnan/",
   // twitter: "https://twitter.com/your-twitter",
-  leetcode: "https://leetcode.com/shasbinas",
+  leetcode: "https://leetcode.com/u/adhilunnikrishnan/",
   // peerlist: "https://peerlist.io/your-peerlist", // remove or keep blank if you don't have a Peerlist profile
   instagram: "",
-  email: "mailto:shasbin.official@gmail.com",
+  email: "mailto:adhilunnikrishnanofficial@gmail.com",
   // blog: "https://yourblog.com", // remove if you don't have a blog
   resume:
     "https://drive.google.com/file/d/1lf2eQpjK10k9CFMpI7HCLGmskxRb3hdT/view?usp=sharing",
-  phone: "+91 9746998909",
-  whatsapp: "https://wa.me/ 9746998909",
+  phone: "+91 7907933057",
+  whatsapp: "https://wa.me/ 7907933057",
 };
 
 // Contact form endpoint (update with your own Formspree endpoint)
@@ -45,18 +45,13 @@ export const SKILLS = {
     "CSS",
     "JavaScript",
     "TypeScript",
-    "React",
-    "Next.js",
+    // "React",
+    // "Next.js",
     "Bootstrap",
   ],
   backend: ["Node.js", "Express.js"],
   databases: ["MongoDB", "MySQL", "PostgreSQL", "Redis"],
   languages: [
-    "C",
-    "C++",
-    "Java",
-    "Python",
-    "Django",
     "JavaScript",
     "TypeScript",
   ],
@@ -90,12 +85,12 @@ export const PROJECTS = [
       "Jest + Supertest",
     ],
     link: "",
-    github: "https://github.com/shasbinas/task-manager-api-ts",
+    github: "https://github.com/adhilunnikrishnan/node-rest-api-typescript",
   },
   {
-    name: "ChronoRoyale-Ecommerce-WebApp",
+    name: "Moonlight-Reads-Ecommerce-WebApp",
     description:
-      "ChronoRoyale is built to deliver a modern e-commerce experience specifically for luxury watches. Users can browse, wishlist, add to cart, and place orders. Admins can manage products, users, and orders with ease.",
+      "Moonlight Reads is designed to offer a modern online bookstore experience for passionate readers. Users can explore a vast collection of books, add favorites to their wishlist, manage their cart, and place orders effortlessly. Admins can efficiently manage books, users, and orders to ensure a smooth and enjoyable reading journey for every customer.",
     tech: [
       "Node.js",
       "JavaScript",
@@ -107,8 +102,8 @@ export const PROJECTS = [
       "MongoDBAtlas",
       "JWT",
     ],
-    link: "https://chronoroyale-ecommerce-webapp.onrender.com",
-    github: "https://github.com/shasbinas/ChronoRoyale-Ecommerce-WebApp.git",
+    link: "moonlight-reads.onrender.com/",
+    github: "https://github.com/adhilunnikrishnan/Moonlight-Reads-Ecommerce-WebApp",
   },
   // Add more projects as needed
 ];
@@ -118,7 +113,7 @@ export const EXPERIENCE = [
     company: "G-Tec Computer Education",
     companyLink: "",
     role: "Full Stack Development Intern",
-    period: "Jun 2025 - Feb 2026 (Expected)",
+    period: "Jul 2025 - Feb 2026 (Expected)",
     location: "Onsite",
     description:
       "Working on full-stack development with a focus on backend engineering. Building secure RESTful APIs, implementing caching and session management with Redis, designing scalable architectures, and integrating relational and NoSQL databases. Gaining hands-on experience with containerization, API performance optimization, and modern JavaScript development workflows.",
@@ -139,23 +134,23 @@ export const EXPERIENCE = [
 ];
 
 export const EDUCATION = [
-  {
-    degree: "Bachelor of Computer Applications (BCA) – Online Degree",
-    institution: " Yenepoya University",
-    institutionLink: "https://www.yenepoya.edu.in/",
-    period: "Jul 2025 - Jul 2028  Expected",
-  },
+  // {
+  //   degree: "Bachelor of Computer Applications (BCA) – Online Degree",
+  //   institution: " Yenepoya University",
+  //   institutionLink: "https://www.yenepoya.edu.in/",
+  //   period: "Jul 2025 - Jul 2028  Expected",
+  // },
   {
     degree: "Senior Secondary (Plus Two) ",
-    institution: "Lbsm Higher Secondary School ",
-    // institutionLink: "https://www.yenepoya.edu.in/",
-    period: "Jul 2021 - Mar 2023",
+    institution: "National Higher Secondary School ",
+    institutionLink: "",
+    period: "Jul 2023 - Mar 2025",
   },
   {
     degree: "Secondary (SSLC)",
-    institution: "Lbsm Higher Secondary School ",
-    // institutionLink: "https://www.yenepoya.edu.in/",
-    period: "Jul 2020 - Mar 2021",
+    institution: "St.Mary's Higher Secondary School ",
+    institutionLink: "",
+    period: "Jul 2022 - Mar 2023",
   },
 
   // Add more education as needed

@@ -6,7 +6,7 @@ export default function GithubStarButton() {
   return (
     <div className="fixed bottom-6 left-6 z-50">
       <Link
-        href="https://github.com/shasbinas/my-portfolio-nextjs"
+        href="https://github.com/adhilunnikrishnan/my-portfolio-nextjs"
         target="_blank"
         rel="noopener noreferrer"
         className="relative w-12 h-12 bg-accent rounded-full shadow-md transition-[background-color,box-shadow,transform] duration-300 hover:shadow-lg hover:scale-110 group flex items-center justify-center"

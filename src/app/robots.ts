@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://shasbin.in/sitemap.xml",
+    sitemap: "https://your-portfolio.com/sitemap.xml",
   };
 }

@@ -3,14 +3,12 @@
 import { useState, MouseEvent } from "react";
 import {
   Mail,
-  Github,
-  Linkedin,
   Phone,
   Instagram,
   Copy,
   Check,
 } from "lucide-react";
-import { SiLeetcode, SiWhatsapp } from "react-icons/si";
+import { SiLeetcode, SiWhatsapp, SiGithub, SiLinkedin } from "react-icons/si";
 import { ABOUT_ME, SOCIAL_LINKS } from "../constants/data";
 
 type ContactLink = {
@@ -41,13 +39,13 @@ const Contact = () => {
       label: "GitHub",
       value: SOCIAL_LINKS.github.replace("https://", ""),
       href: SOCIAL_LINKS.github,
-      icon: Github,
+      icon: SiGithub,
     },
     SOCIAL_LINKS.linkedin && {
       label: "LinkedIn",
       value: SOCIAL_LINKS.linkedin.replace("https://", ""),
       href: SOCIAL_LINKS.linkedin,
-      icon: Linkedin,
+      icon: SiLinkedin,
     },
     SOCIAL_LINKS.leetcode && {
       label: "LeetCode",

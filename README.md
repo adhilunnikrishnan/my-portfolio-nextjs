@@ -363,7 +363,7 @@ This project is licensed under the ISC License. See the [LICENSE](LICENSE) file 
 - 💼 LinkedIn: [shasbinasdev](https://linkedin.com/in/shasbinasdev)
 - 🐙 GitHub: [@shasbinas](https://github.com/shasbinas)
 - 💻 LeetCode: [@shasbinas](https://leetcode.com/shasbinas)
-- 📱 Phone: +91 9746998909
+- 📱 Phone: +91 7907933057
 - 📄 Resume: [View Resume](https://drive.google.com/file/d/1lf2eQpjK10k9CFMpI7HCLGmskxRb3hdT/view?usp=sharing)
 
 **Project Link:** [https://github.com/shasbinas/my-portfolio-nextjs](https://github.com/shasbinas/my-portfolio-nextjs)

@@ -51,7 +51,7 @@ export default function HandwritingAnimation({ onComplete, className }: Props) {
           transition={{ duration: 0.8, delay: 2.8, ease: "easeOut" }} // Fade in after write-off (2.8s)
           onAnimationComplete={() => onComplete?.()}
         >
-          Shasbin AS
+          Adhil Unnikrishnan P
         </motion.text>
       </motion.svg>
     </div>

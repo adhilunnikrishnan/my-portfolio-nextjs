@@ -14,11 +14,11 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://shasbin.in"),
-  title: "Shasbin AS - Full Stack Developer | Backend & Frontend Expert",
+  title: "Adhil Unnikrishnan P - Full Stack Developer | Backend Expert",
   description:
-    "Portfolio of Shasbin AS, a Full Stack Developer from Irinjalakuda, Thrissur, India. Expert in Node.js, Express, React, Next.js, and scaling secure backend systems.",
+    "Portfolio of Adhil Unnikrishnan P, a Backend Developer from Irinjalakuda, Thrissur, India. Expert in Node.js, Express, React, Next.js, and scaling secure backend systems.",
   keywords: [
-    "Shasbin AS",
+    "Adhil Unnikrishnan P",
     "Full Stack Developer",
     "Backend Developer",
     "MERN Stack",
@@ -31,36 +31,36 @@ export const metadata: Metadata = {
     "Kerala",
     "Software Engineer",
   ],
-  authors: [{ name: "Shasbin AS", url: "https://shasbin.in" }],
-  creator: "Shasbin AS",
-  publisher: "Shasbin AS",
+  authors: [{ name: "Adhil Unnikrishnan P", url: "https://github.com/adhilunnikrishnan" }],
+  creator: "Adhil Unnikrishnan P",
+  publisher: "Adhil Unnikrishnan P",
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://shasbin.in",
-    title: "Shasbin AS - Full Stack Developer Portfolio",
+    url: "https://your-domain.com", // Recommendation: update this to your actual domain
+    title: "Adhil Unnikrishnan P - Full Stack Developer Portfolio",
     description:
-      "Explore the projects and skills of Shasbin AS. Specializing in scalable backend systems and modern frontend interfaces.",
-    siteName: "Shasbin AS Portfolio",
+      "Explore the projects and skills of Adhil Unnikrishnan P. Specializing in scalable backend systems and modern frontend interfaces.",
+    siteName: "Adhil Unnikrishnan P Portfolio",
     images: [
       {
-        url: "/opengraph-image.png", // Next.js automatically generates this if you have opengraph-image.tsx
+        url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Shasbin AS Portfolio",
+        alt: "Adhil Unnikrishnan P Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shasbin AS - Full Stack Developer",
+    title: "Adhil Unnikrishnan P - Full Stack Developer",
     description:
-      "Explore the projects and skills of Shasbin AS. Specializing in scalable backend systems and modern frontend interfaces.",
-    creator: "@shasbinas", // Assuming handle based on github/others
-    images: ["/twitter-image.png"], // Next.js automatically generates this if you have twitter-image.tsx
+      "Explore the projects and skills of Adhil Unnikrishnan P. Specializing in scalable backend systems and modern frontend interfaces.",
+    creator: "@adhilunnikrishnan",
+    images: ["/twitter-image.png"],
   },
   robots: {
     index: true,
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "u82iDi1b-lYEt4NXIrOsGpS_PTMQ73tpZSK2Ocq3hKY",
+    google: "your-google-verification-code", // Note: You might want to update this too
   },
 };
 
@@ -105,12 +105,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Shasbin AS",
-              url: "https://shasbin.in",
-              jobTitle: "Full Stack Developer",
+              name: "Adhil Unnikrishnan P",
+              url: "https://your-domain.com",
+              jobTitle: "Backend Developer",
               description:
-                "Full Stack Developer specializing in Node.js, Express, React, and scalable backend architectures.",
-              image: "https://shasbin.in/profile-image.jpg", // Adjust if you have a specific URL
+                "Backend Developer specializing in Node.js, Express, and scalable backend architectures.",
+              image: "https://your-domain.com/profile-image.jpg",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Irinjalakuda, Thrissur",
@@ -118,19 +118,19 @@ export default function RootLayout({
                 addressCountry: "India",
               },
               knowsAbout: [
-                "Result-Oriented",
                 "Backend Development",
-                "Frontend Development",
-                "React",
-                "Next.js",
-                "TypeScript",
                 "Node.js",
-                "Database Management",
+                "Express.js",
+                "TypeScript",
+                "PostgreSQL",
+                "MongoDB",
+                "Redis",
+                "Docker",
               ],
               sameAs: [
-                "https://github.com/shasbinas",
-                "https://linkedin.com/in/shasbinasdev",
-                "https://leetcode.com/shasbinas",
+                "https://github.com/adhilunnikrishnan",
+                "https://www.linkedin.com/in/adhilunnikrishnan/",
+                "https://leetcode.com/u/adhilunnikrishnan/",
               ],
             }),
           }}
