@@ -15,9 +15,11 @@
 
 **A modern, responsive, and feature-rich portfolio website built with Next.js 15, React 19, and TypeScript**
 
+
+
 [Report Bug](https://github.com/shasbinas/my-portfolio-nextjs/issues) • [Request Feature](https://github.com/shasbinas/my-portfolio-nextjs/issues)
 
-
+</div>
 
 ---
 
