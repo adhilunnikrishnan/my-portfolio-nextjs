@@ -70,19 +70,17 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
-    name: "task-manager-api-ts",
+    name: "node-rest-api-typescript",
     description:
-      " A production-ready Task Manager REST API built with TypeScript, Express, PostgreSQL, Prisma, and Redis — featuring secure auth, role-based access, task management, comments, user controls, and Cloudinary uploads.",
+      " A scalable Node.js REST API built with TypeScript, featuring JWT-based authentication, MongoDB for data persistence, and Redis for caching. The application is Dockerized for consistent development and deployment, following clean architecture and modern backend best practices.",
     tech: [
       "Node.js",
       "TypeScript",
       "JWT",
       "Redis",
-      "PostgreSQL",
-      "Prisma ORM",
+      "Docker",
+      "MongoDB",
       "argon2",
-      "Cloudinary",
-      "Jest + Supertest",
     ],
     link: "",
     github: "https://github.com/adhilunnikrishnan/node-rest-api-typescript",
