@@ -19,13 +19,13 @@ const PLACEHOLDER_BADGES = [
   //   description: "Solved problems for 100 consecutive days",
   //   imagePath: "https://assets.leetcode.com/static_assets/others/25100.gif",
   // },
-  // {
-  //   title: "LeetCode 75",
-  //   platform: "LeetCode",
-  //   description: "Completed the LeetCode 75 challenge",
-  //   imagePath:
-  //     "https://assets.leetcode.com/static_assets/others/LeetCode_75.gif",
-  // },
+  {
+    title: "LeetCode 75",
+    platform: "LeetCode",
+    description: "Completed the LeetCode 75 challenge",
+    imagePath:
+      "https://assets.leetcode.com/static_assets/others/LeetCode_75.gif",
+  },
   {
     title: "Pull Shark",
     platform: "GitHub",
@@ -100,9 +100,7 @@ export default function Achievements() {
       <div className="flex flex-col gap-2">
         <h2 className="section-title">Achievements.</h2>
         <p className="text-sm text-muted-foreground max-w-2xl">
-          Showcase GitHub trophies, LeetCode badges, hackathon recognitions, or
-          certifications. Drop your media into any card to keep this reel up to
-          date.
+          Showcase GitHub trophies, LeetCode badges, and other milestones that highlight dedication to coding and continuous learning.
         </p>
       </div>
 
