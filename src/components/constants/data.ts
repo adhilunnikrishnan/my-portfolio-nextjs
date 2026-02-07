@@ -70,9 +70,11 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    id: 1,
     name: "node-rest-api-typescript",
+    category: "BACKEND",
     description:
-      " A scalable Node.js REST API built with TypeScript, featuring JWT-based authentication, MongoDB for data persistence, and Redis for caching. The application is Dockerized for consistent development and deployment, following clean architecture and modern backend best practices.",
+      "**Problem:** Traditional APIs often suffer from performance bottlenecks and weak type safety.\n**Impact:** This leads to fragile codebases and poor developer experience.\n**Solution:** A scalable Node.js REST API built with TypeScript, featuring JWT-based authentication, MongoDB for data persistence, and Redis for caching. Dockerized for consistent deployment.",
     tech: [
       "Node.js",
       "TypeScript",
@@ -84,11 +86,15 @@ export const PROJECTS = [
     ],
     link: "",
     github: "https://github.com/adhilunnikrishnan/node-rest-api-typescript",
+    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop",
+    color: "#3178C6",
   },
   {
+    id: 2,
     name: "Moonlight-Reads-Ecommerce-WebApp",
+    category: "E-COMMERCE",
     description:
-      "Moonlight Reads is designed to offer a modern online bookstore experience for passionate readers. Users can explore a vast collection of books, add favorites to their wishlist, manage their cart, and place orders effortlessly. Admins can efficiently manage books, users, and orders to ensure a smooth and enjoyable reading journey for every customer.",
+      "**Problem:** Many online bookshops lack an engaging and intuitive user experience.\n**Impact:** Readers struggle to discover content and manage their collections efficiently.\n**Solution:** Moonlight Reads offers a modern bookstore experience with wishlist management, effortless cart handling, and a robust admin dashboard for monitoring inventory and orders.",
     tech: [
       "Node.js",
       "JavaScript",
@@ -100,10 +106,11 @@ export const PROJECTS = [
       "MongoDBAtlas",
       "JWT",
     ],
-    link: "moonlight-reads.onrender.com/",
+    link: "https://moonlight-reads.onrender.com/",
     github: "https://github.com/adhilunnikrishnan/Moonlight-Reads-Ecommerce-WebApp",
+    image: "https://images.unsplash.com/photo-1541692641319-981cc79ee10a?q=80&w=2070&auto=format&fit=crop",
+    color: "#00FF94",
   },
-  // Add more projects as needed
 ];
 
 export const EXPERIENCE = [
